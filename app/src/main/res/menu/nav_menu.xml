@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/miLogin"
+        android:title="@string/log_in"
+        android:visible="false"/>
+
+    <item android:id="@+id/miProfile"
+        android:title="@string/profile"
+        android:visible="false"/>
+
+    <item android:id="@+id/miOrders"
+        android:title="@string/my_orders"
+        android:visible="false"/>
+
+    <item android:id="@+id/miPayments"
+        android:title="Payment methods"
+        android:visible="false"/>
+
+    <item android:id="@+id/miAdresses"
+        android:title="@string/my_addresses"
+        android:visible="false"/>
+
+    <item android:id="@+id/miPromocodes"
+        android:title="@string/promo_codes"
+        android:visible="false"/>
+
+    <item android:id="@+id/miLogout"
+        android:title="@string/log_out"
+        android:visible="false"/>
+
+</menu>
